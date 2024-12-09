@@ -1,0 +1,13 @@
+private class DepositListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                double amount = Double.parseDouble(amountField.getText());
+                balance += amount;
+                balanceLabel.setText("Balance: R" + balance);
+                amountField.setText("");
+            } catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(frame, "Invalid amount");
+            }
+        }
+    }
