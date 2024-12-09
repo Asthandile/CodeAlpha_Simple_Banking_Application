@@ -1,0 +1,7 @@
+ private class CheckBalanceListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            balanceLabel.setText("Balance: R" + balance);
+            JOptionPane.showMessageDialog(null,"\n  "+balanceLabel.getText());
+        }
+    }
