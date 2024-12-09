@@ -8,14 +8,20 @@ A Java-based personal banking application that demonstrates fundamental programm
 
 # Features 
 
-1.Deposit money
-2.Withdraw money
-3.Check balance
-4.Exit programs 
+-Deposit money
+
+-Withdraw money
+
+-Check balance
+
+-Exit programs 
 
 # Technology used
 
 -Programming Language: Java
+
 -Data Types: Strings, Integers
+
 -Control Structures: Loops, Conditional Statements, Methods
+
 -Integrated Development Environment (IDE): IntelliJ IDEA
